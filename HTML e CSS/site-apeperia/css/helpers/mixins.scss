@@ -1,0 +1,27 @@
+// Mixins usadas no meu Sass
+
+@import 'compass/css3';
+@import 'compass/utilities';
+
+
+@mixin borda-arredondada($raio: 0.3em) {
+  -webkit-border-radius: $raio;
+  border-radius: $raio;
+}
+
+%image-replacement {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+%sombra-padrao {
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba($cor-auxiliar, 0.3);
+  box-shadow: 0 2px 6.65px 0.35px rgba($cor-auxiliar, 0.3);
+}
+
+@function calcula-pela-fonte($multiplicador) {
+  @return round($multiplicador * $tamanho-padrao-fonte);
+}
+
+

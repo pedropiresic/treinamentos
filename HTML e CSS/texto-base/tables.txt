@@ -1,0 +1,7 @@
+Tabelas <table> podem ser divididas em três estruturas
+    - Cabeçalho <thead> 
+        Ceĺulas do cabeçalho deixam de ser <td> e viram <th>
+    - Conteúdo <tbody>
+
+    - Rodapé <tfoot>
+

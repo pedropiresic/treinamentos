@@ -1,0 +1,15 @@
+Separação entre duas sessões
+
+blocos de conteúdos separados por tags <div>
+
+
+    Todos os iten das nossas linhas têm o comportamento block, onde a tag ocupa toda a linha e o próximo item ocupa a linha debaixo.
+
+    Elementos inline não me deixa alterar o espaçamento interno e externo.
+
+    Todos os elementos são alinhados por padrão pela linha debaixo
+
+As divs são blocos de conteúdos na nossa página. Mas quando estes blocos se referem a algum
+escopo específico na aplicação, a melhor opção é utilizar o divisor <fieldset> e, como
+alternativa para o título (parágrafo <p>), temos o <legend>.
+

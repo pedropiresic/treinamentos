@@ -1,0 +1,4 @@
+Utilizamos classes para:
+    Marcar itens
+    Adicionar estilos aos itens marcados
+    

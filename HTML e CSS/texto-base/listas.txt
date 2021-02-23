@@ -1,0 +1,4 @@
+ul - Lista não ordenada
+ol - Lista ordenada
+
+li - Item da lista (deve ser inserida para cada item da lista)

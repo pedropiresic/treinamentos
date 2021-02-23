@@ -1,0 +1,18 @@
+Nós temos 3 espectros de cores
+
+    O medidor de intencidade da cor é hexadecimal. Portanto, do 0 ao F é como definimos o quão intensa a cor será
+        0123456789ABCDEF
+
+    RGB = Red Green Blue
+
+    Nós montamos a cor usando um dicionário hexadecimal: #_ _ _ _ _ _
+    Os dois primeiros elementos marcam a cor Red, os dois seguintes a cor Green e os dois últimos a cor Blue
+
+    0 = Ausência de cor
+    F = Máximo de cor
+
+    #FF0000 - Considerando que o primeiro par de espectros define a cor vermelha, se nós inserirmos FF no início, estamos definindo a cor vermelha em seu máximo enquanto que ao zerar os outros espectros, vermelho será tudo que teremos.
+
+    Outra representação é o dicionário RGB - 0, 1, 2, ..., 255
+        0 é ausência de cor
+        255 é o máximo de cor

@@ -1,0 +1,19 @@
+height = altura
+    Pixels
+
+widht = largura
+    Pixels
+    Percentual
+
+border = borda
+
+padding = espaçamento interno entre a borda e o conteúdo
+    padding-top
+    padding-left
+    padding-right
+    padding-bottom
+
+margin = Espaçamento entre a borda e a lateral externa
+    margin-left
+    margin-right
+
